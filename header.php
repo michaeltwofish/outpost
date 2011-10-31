@@ -14,7 +14,7 @@
 		<script src="<?php Site::out_url( 'theme' ); ?>/html5.js"></script>
 		<![endif]-->
 
-		<?php $theme->header(); ?>
+		<?php $theme->header_out(); ?>
 	</head>
 
 	<body class="<?php $theme->body_class(); ?>">
