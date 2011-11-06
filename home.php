@@ -6,7 +6,7 @@
 	<div id="content">
 		<?php
 		foreach ( $posts as $post ) {
-			$theme->content($post);
+			$theme->content_out($post);
 		}
 		?>
 	</div> <!-- #content -->

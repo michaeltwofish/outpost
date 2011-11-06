@@ -5,7 +5,7 @@
 <!-- entry.single -->
 <div id="main">
 	<div id="content">
-		<?php $theme->content( $post ); ?>
+		<?php $theme->content_out( $post ); ?>
 
 		<?php $theme->comments( $post ); ?>
 
