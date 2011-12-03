@@ -6,10 +6,6 @@
 		<meta charset="utf-8" />
 		<meta name="generator" content="Habari">
 
-		<link rel="edit" type="application/atom+xml" title="<?php Options::out( 'title' ); ?>" href="<?php URL::out( 'atompub_servicedocument' ); ?>">
-		<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="<?php $theme->feed_alternate(); ?>">
-		<link rel="EditURI" type="application/rsd+xml" title="RSD" href="<?php URL::out( 'rsd' ); ?>">
-
 		<!--[if IE]>
 		<script src="<?php Site::out_url( 'theme' ); ?>/html5.js"></script>
 		<![endif]-->
