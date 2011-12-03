@@ -5,7 +5,7 @@
 	<ul>
     <?php $theme->pagemenu(); ?>
 		<li>
-			<a title="Feed for Posts" href="<?php $theme->feed_alternate() ?>">Posts Feed</a>
+			<a title="Feed for Posts" href="<?php echo $theme->feed_alternate() ?>">Posts Feed</a>
 		</li>
 <!--
 		<li>
